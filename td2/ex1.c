@@ -118,5 +118,7 @@ int main()
     printf("hauteur(q) = %d\n", hauteur(q));
     printf("est_filforme(q) = %d\n", est_filforme(q));
 
+    printf("%d",est_filforme(peigne(3))); //retourne 1 car toute arbre peigne est filiforme
+
     return 0;
 }
